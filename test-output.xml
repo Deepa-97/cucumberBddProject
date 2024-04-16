@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.149" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="customer" name="Add New customer" time="0.008">
+<failure/>
+<system-out><![CDATA[
+Given User Launch Chrome browser............................................undefined
+When User opens URL "https://admin-demo.nopcommerce.com/login"..............skipped
+And User enters Email as "admin@yourstore.com" and Password as "admin"......skipped
+And User click on Login.....................................................skipped
+Then User can view Dashboard................................................skipped
+When User click on customers menu...........................................skipped
+And click on customers menu item............................................skipped
+And click on Add new button.................................................skipped
+Then User can view Add new customer page....................................skipped
+When User enter customer info...............................................skipped
+And click on save button....................................................skipped
+Then User can view  confirmation message"The new customer has been added successfully".skipped
+And close browser...........................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
